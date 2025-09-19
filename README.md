@@ -133,17 +133,18 @@ for images in your_fancy_dataloader:
 
 ## Citation
 
-If you use `HistoEncoder` models or pipelines in your publication, please cite the
-github repository. There's a preprint coming, but I wanted to share the model to the
-public as quickly as possible! :)
+If you use `HistoEncoder` models or pipelines in your publication, please cite it as follows:
 
 ```
-@misc{histoencoder,
-  author = {Pohjonen, Joona},
-  title = {HistoEncoder: Foundation models for digital pathology},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {https://github.com/jopo666/HistoEncoder},
+@article{batouche_arxiv2,
+  title = {HistoEncoder: a digital pathology foundation model for prostate cancer},
+  author = {Pohjonen, Joona and Batouche, Abderrahim-Oussama and Rannikko, A. and Sandeman, Kevin and Erickson, Andrew and Pitkänen, Esa and Mirtti, T.},
+  year = {2024},
+  eprint = {2411.11458},
+  archiveprefix = {arXiv},
+  primaryclass = {eess.IV},
+  url = {https://arxiv.org/abs/2411.11458},
+  doi = {arXiv:2411.11458},
+  dimensions = {true},
 }
 ```
