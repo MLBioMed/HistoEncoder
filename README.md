@@ -22,6 +22,11 @@ histological slide images. The `histoencoder`
 python package also exposes some useful functions for using the encoder models, which
 are described in the [API docs](https://jopo666.github.io/HistoEncoder/).
 
+Models and the workflow is described in "HistoEncoder: A
+digital pathology foundation model for prostate cancer", [Journal of Pathology
+Informatics 2026, 100715](https://doi.org/10.1016/j.jpi.2026.100715).
+
+
 ## What is this?
 
 
@@ -133,7 +138,21 @@ for images in your_fancy_dataloader:
 
 ## Citation
 
-If you use `HistoEncoder` models or pipelines in your publication, please cite it as follows:
+If you use `HistoEncoder` models or pipelines in your publication, please cite our article:
+
+```
+@article{pohjonen_jpi2026,
+  title = {HistoEncoder: A digital pathology foundation model for prostate cancer},
+  author = {Pohjonen, Joona and Batouche, Oussama and Kantola, Janne and Rannikko, Antti and Sandeman, Kevin and Erickson, Andrew and Pitkänen, Esa and Mirtti, Tuomas},
+  journal = {Journal of Pathology Informatics},
+  year = {2026},
+  pages = {100715},
+  doi = {10.1016/j.jpi.2026.100715},
+  url = {https://doi.org/10.1016/j.jpi.2026.100715},
+}
+```
+
+The preprint:
 
 ```
 @article{batouche_arxiv2,
@@ -148,3 +167,4 @@ If you use `HistoEncoder` models or pipelines in your publication, please cite i
   dimensions = {true},
 }
 ```
+
