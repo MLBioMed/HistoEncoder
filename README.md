@@ -68,7 +68,7 @@ To learn more, you can check out my [slides](docs/static/ECDP_2023.pdf) from the
 
 Although the first models in this repository (`prostate_small`, `prostate_medium`) have
 been trained on only prostate tissue, they will very likely be better than any natural
-image pre-trained model. Next step of this project/repository is to take the current
+image pre-trained model. Next step: take the current
 models and fine-tune them for other tissues to create other foundation models for new
 tissue types (eg. `colon_*`, `breast_*` and so on). This fine-tuning step does not
 require that much computing power so it's doable even though you don't have access to
