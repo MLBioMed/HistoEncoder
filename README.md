@@ -62,8 +62,7 @@ This _label purity_ is visualised on the top right corner, and you can see that 
 the 3.8 million tile images are contained in clusters with over 90% label purity!
 
 To learn more, you can check out my [slides](docs/static/ECDP_2023.pdf) from the
-[ECDP 2023](https://www.ecdp2023.org) seminar. We also have a preprint coming once I
-finally finish writing it...
+[ECDP 2023](https://www.ecdp2023.org) seminar.
 
 ## What about [_input your tissue type here_]?
 
